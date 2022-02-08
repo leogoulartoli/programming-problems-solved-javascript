@@ -15,18 +15,18 @@
 
 // Constraints:
 
-// 0 <= num <= 231 - 1
+    // 0 <= num <= 231 - 1
 
 //  Algorithm:
 
-var addDigits = function(num) {
-    let sum = 0
-    while(true){
-        let string = (sum > 0 ? sum.toString() : num.toString())
-        sum = 0
-        for(let i = 0; i < string.length; i++){
-            sum += Number(string[i])
+    var addDigits = function(num) {
+        let sum = 0
+        while(true){
+            let string = (sum > 0 ? sum.toString() : num.toString())
+            sum = 0
+            for(let i = 0; i < string.length; i++){
+                sum += Number(string[i])
+            }
+            if(sum < 10) return sum
         }
-        if(sum < 10) return sum
-    }
-};
+    };

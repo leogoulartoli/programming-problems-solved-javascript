@@ -8,6 +8,8 @@ Algorithms:
 
 [countUniqueValues](./countUniqueValues/index.js)
 
+[maxSubarraySum](./maxSubarraySum/index.js)
+
 [removeDuplicatesFromSortedArrayII](./removeDuplicatesFromSortedArrayII/index.js)
 
 [validAnagram](./validAnagram/index.js)

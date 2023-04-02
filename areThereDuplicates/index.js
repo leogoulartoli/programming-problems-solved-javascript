@@ -21,3 +21,9 @@ function areThereDuplicates(...args) {
     return false
 }
 
+//Or
+
+function areThereDuplicates() {
+    return new Set(arguments).size !== arguments.length;
+}
+

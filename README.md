@@ -12,4 +12,6 @@ Algorithms:
 
 [removeDuplicatesFromSortedArrayII](./removeDuplicatesFromSortedArrayII/index.js)
 
+[searchVal](./searchVal/index.js)
+
 [validAnagram](./validAnagram/index.js)

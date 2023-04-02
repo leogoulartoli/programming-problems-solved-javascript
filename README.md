@@ -6,6 +6,8 @@ Algorithms:
 
 [addDigits](./addDigits/index.js)
 
+[areThereDuplicates](./areThereDuplicates/index.js)
+
 [countUniqueValues](./countUniqueValues/index.js)
 
 [maxSubarraySum](./maxSubarraySum/index.js)

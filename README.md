@@ -8,6 +8,8 @@ Algorithms:
 
 [areThereDuplicates](./areThereDuplicates/index.js)
 
+[averagePair](./averagePair/index.js)
+
 [countUniqueValues](./countUniqueValues/index.js)
 
 [maxSubarraySum](./maxSubarraySum/index.js)

@@ -12,6 +12,8 @@ Algorithms:
 
 [countUniqueValues](./countUniqueValues/index.js)
 
+[isSubsequence](./isSubsequence/index.js)
+
 [maxSubarraySum](./maxSubarraySum/index.js)
 
 [removeDuplicatesFromSortedArrayII](./removeDuplicatesFromSortedArrayII/index.js)

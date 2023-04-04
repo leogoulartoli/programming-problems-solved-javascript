@@ -16,6 +16,8 @@ Algorithms:
 
 [maxSubarraySum](./maxSubarraySum/index.js)
 
+[maxSubarraySum2](./maxSubarraySum2/index.js)
+
 [removeDuplicatesFromSortedArrayII](./removeDuplicatesFromSortedArrayII/index.js)
 
 [sameFrequency](./sameFrequency/index.js)

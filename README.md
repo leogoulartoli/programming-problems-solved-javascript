@@ -10,6 +10,8 @@ Algorithms:
 
 [averagePair](./averagePair/index.js)
 
+[binarySearch](./binarySearch/index.js)
+
 [countUniqueValues](./countUniqueValues/index.js)
 
 [isSubsequence](./isSubsequence/index.js)

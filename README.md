@@ -2,28 +2,38 @@
 
 This repository intends to solve programming problems in js to help the community and inspire the language javascript.
 
-Algorithms:
+## Common Algorithms:
 
-[addDigits](./addDigits/index.js)
+### Sorting:
 
-[areThereDuplicates](./areThereDuplicates/index.js)
+[bubbleSort](./common-alg//bubbleSort/index.js)
 
-[averagePair](./averagePair/index.js)
+[selectionSort](./common-alg//selectionSort/index.js)
 
-[binarySearch](./binarySearch/index.js)
+[insertionSort](./common-alg//insertionSort/index.js)
 
-[countUniqueValues](./countUniqueValues/index.js)
+## Algorithms Problems:
 
-[isSubsequence](./isSubsequence/index.js)
+[addDigits](./problems/addDigits/index.js)
 
-[maxSubarraySum](./maxSubarraySum/index.js)
+[areThereDuplicates](./problems/areThereDuplicates/index.js)
 
-[maxSubarraySum2](./maxSubarraySum2/index.js)
+[averagePair](./problems/averagePair/index.js)
 
-[removeDuplicatesFromSortedArrayII](./removeDuplicatesFromSortedArrayII/index.js)
+[binarySearch](./problems/binarySearch/index.js)
 
-[sameFrequency](./sameFrequency/index.js)
+[countUniqueValues](./problems/countUniqueValues/index.js)
 
-[searchVal](./searchVal/index.js)
+[isSubsequence](./problems/isSubsequence/index.js)
 
-[validAnagram](./validAnagram/index.js)
+[maxSubarraySum](./problems/maxSubarraySum/index.js)
+
+[maxSubarraySum2](./problems/maxSubarraySum2/index.js)
+
+[removeDuplicatesFromSortedArrayII](./problems/removeDuplicatesFromSortedArrayII/index.js)
+
+[sameFrequency](./problems/sameFrequency/index.js)
+
+[searchVal](./problems/searchVal/index.js)
+
+[validAnagram](./problems/validAnagram/index.js)

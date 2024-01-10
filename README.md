@@ -12,6 +12,16 @@ This repository intends to solve programming problems in js to help the communit
 
 [insertionSort](./common-alg//insertionSort/index.js)
 
+[mergeSort](./common-alg/mergeSort/index.js)
+
+[quickSort](./common-alg/quickSort/index.js)
+
+[radixSort](./common-alg/radixSort/index.js)
+
+### Data Structure:
+
+[singlyLinkedList](./data-structure/singlyLinkedList/index.js)
+
 ## Algorithms Problems:
 
 [addDigits](./problems/addDigits/index.js)

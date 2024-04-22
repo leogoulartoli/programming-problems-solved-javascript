@@ -50,5 +50,30 @@ class BinarySearchTree {
         return false
     }
 
+    breadthFirstSearch() {
+        let data = [], queue = [], node = this.root
+        queue.push(node)
+        while (queue.length) {
+            node = queue.shift()
+            data.push(node.val)
+            if (node.left) queue.push(node.left)
+            if (node.right) queue.push(node.right)
+        }
+        return data
+    }
+
+    depthFirstSearchPreOrder() {
+        let data = []
+        let node = this.root
+        const traverse = (node) => {
+            data.push(node.val)
+            if (node.left) search(node.left)
+            if (node.right) search(node.right)
+        }
+        traverse(node)
+        return data
+    }
+
 
 }
+

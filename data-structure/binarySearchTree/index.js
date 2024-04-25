@@ -74,6 +74,28 @@ class BinarySearchTree {
         return data
     }
 
+    depthFirstSearchPostOrder() {
+        let data = []
+        let node = this.root
+        const traverse = (node) => {
+            if (node.left) traverse(node.left)
+            if (node.right) traverse(node.right)
+            data.push(node.val)
+        }
+        traverse(node)
+        return data
 
+    }
+
+    depthFirstSearchInOrder() {
+        let data = []
+        let node = this.root
+        const traverse = (node) => {
+            if (node.left) traverse(node.left)
+            data.push(node.val)
+            if (node.right) traverse(node.right)
+        }
+        traverse(node)
+        return data
+    }
 }
-

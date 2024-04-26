@@ -8,9 +8,9 @@ This repository intends to solve programming problems in js to help the communit
 
 [bubbleSort](./common-alg//bubbleSort/index.js)
 
-[selectionSort](./common-alg//selectionSort/index.js)
+[selectionSort](./common-alg/selectionSort/index.js)
 
-[insertionSort](./common-alg//insertionSort/index.js)
+[insertionSort](./common-alg/insertionSort/index.js)
 
 [mergeSort](./common-alg/mergeSort/index.js)
 
@@ -21,6 +21,12 @@ This repository intends to solve programming problems in js to help the communit
 ### Data Structure:
 
 [singlyLinkedList](./data-structure/singlyLinkedList/index.js)
+
+[doublyLinkedList](./data-structure/doublyLinkedList/index.js)
+
+[binarySearchTree](./data-structure/binarySearchTree/index.js)
+
+[hashTable](./data-structure/hashTable/index.js)
 
 ## Algorithms Problems:
 

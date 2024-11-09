@@ -16,18 +16,15 @@ const fibIterative = (n) => {
 }
 
 // Recursive with Memoization (not so efficient)
-const fib = (n) => {
-    const memo = []
-    const fibRecursive = (n) => {
-        if (n <= 1) return n
-        if (memo[n] >= 0) return memo[n]
-        memo[n] = fibRecursive(n - 1) + fibRecursive(n - 2)
-        return memo[n]
-    }
-    return fibRecursive(n)
+
+const fibRecursive = (n, memo = []) => {
+    if (n <= 1) return n
+    if (memo[n] >= 0) return memo[n]
+    memo[n] = fibRecursive(n - 1, memo) + fibRecursive(n - 2, memo)
+    return memo[n]
 }
 
-module.exports = { fibIterative, fib };
+module.exports = { fibIterative, fibRecursive };
 
 
 

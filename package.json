@@ -1,0 +1,22 @@
+{
+  "name": "programming-problems-solved-javascript",
+  "version": "1.0.0",
+  "description": "A collection of common algorithms, data structures and programming problems solved in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "javascript",
+    "programming-problems",
+    "sorting",
+    "searching"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

@@ -28,6 +28,8 @@ This repository intends to solve programming problems in js to help the communit
 
 [hashTable](./data-structure/hashTable/index.js)
 
+[weightedGraph](./data-structure/weightedGraph/index.js)
+
 ## Algorithms Problems:
 
 [addDigits](./problems/addDigits/index.js)
@@ -39,6 +41,8 @@ This repository intends to solve programming problems in js to help the communit
 [binarySearch](./problems/binarySearch/index.js)
 
 [countUniqueValues](./problems/countUniqueValues/index.js)
+
+[fibonacci](./problems/fibonacci/index.js)
 
 [isSubsequence](./problems/isSubsequence/index.js)
 
